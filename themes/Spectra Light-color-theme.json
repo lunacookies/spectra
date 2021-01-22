@@ -82,6 +82,10 @@
 			"foreground": "#268BD2",
 			"fontStyle": ""
 		},
+		"namespace": {
+			"foreground": "#2AA198",
+			"fontStyle": ""
+		},
 		"macro": {
 			"foreground": "#DC322F",
 			"fontStyle": ""

@@ -43,6 +43,8 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
 
     builder.add_rule(Semantic("property"), palette.blue());
 
+    builder.add_rule(Semantic("namespace"), palette.cyan());
+
     builder.add_rules(
         &[
             Semantic("macro"),
