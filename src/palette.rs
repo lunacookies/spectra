@@ -1,5 +1,6 @@
 use tincture::{Hue, Oklab, Oklch};
 
+#[derive(Clone, Copy)]
 pub(crate) enum Palette {
     Light,
     Dark,
