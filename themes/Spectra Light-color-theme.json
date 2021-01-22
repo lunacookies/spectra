@@ -9,6 +9,8 @@
 		"editorLineNumber.foreground": "#93A1A1",
 		"editorGutter.background": "#EEE8D5",
 		"editor.lineHighlightBackground": "#EEE8D5",
+		"statusBar.background": "#657B83",
+		"statusBar.foreground": "#EEE8D5",
 		"rust_analyzer.inlayHints.foreground": "#93A1A1"
 	},
 	"semanticHighlighting": true,

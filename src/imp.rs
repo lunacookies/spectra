@@ -20,6 +20,9 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: Palette) {
         palette.background_highlights(),
     );
 
+    builder.add_workspace_rule("statusBar.background", palette.foreground());
+    builder.add_workspace_rule("statusBar.foreground", palette.background_highlights());
+
     builder.add_workspace_rule(
         "rust_analyzer.inlayHints.foreground",
         palette.deemphasized(),
