@@ -8,6 +8,7 @@
 		"editor.background": "#002B36",
 		"editorLineNumber.foreground": "#586E75",
 		"editorGutter.background": "#073642",
+		"editor.lineHighlightBackground": "#073642",
 		"rust_analyzer.inlayHints.foreground": "#586E75"
 	},
 	"semanticHighlighting": true,
