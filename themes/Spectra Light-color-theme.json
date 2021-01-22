@@ -46,6 +46,10 @@
 			"foreground": "#B58900",
 			"fontStyle": ""
 		},
+		"interface": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
 		"typeAlias": {
 			"foreground": "#B58900",
 			"fontStyle": ""

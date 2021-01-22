@@ -24,6 +24,7 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
             Semantic("enum"),
             Semantic("enumMember"),
             Semantic("union"),
+            Semantic("interface"),
             Semantic("typeAlias"),
             Semantic("builtinType"),
             Semantic("typeParameter"),
