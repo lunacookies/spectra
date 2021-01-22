@@ -23,6 +23,12 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: Palette) {
     builder.add_workspace_rule("statusBar.background", palette.foreground());
     builder.add_workspace_rule("statusBar.foreground", palette.background_highlights());
 
+    builder.add_workspace_rule("sideBar.background", palette.background());
+    builder.add_workspace_rule(
+        "sideBarSectionHeader.background",
+        palette.background_highlights(),
+    );
+
     builder.add_workspace_rule(
         "rust_analyzer.inlayHints.foreground",
         palette.deemphasized(),

@@ -11,6 +11,8 @@
 		"editor.lineHighlightBackground": "#EEE8D5",
 		"statusBar.background": "#657B83",
 		"statusBar.foreground": "#EEE8D5",
+		"sideBar.background": "#FDF6E3",
+		"sideBarSectionHeader.background": "#EEE8D5",
 		"rust_analyzer.inlayHints.foreground": "#93A1A1"
 	},
 	"semanticHighlighting": true,
