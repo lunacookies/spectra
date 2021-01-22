@@ -7,6 +7,11 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
     builder.add_workspace_rule("editor.foreground", palette.foreground());
     builder.add_workspace_rule("editor.background", palette.background());
 
+    builder.add_workspace_rule(
+        "rust_analyzer.inlayHints.foreground",
+        palette.deemphasized(),
+    );
+
     builder.add_rule(Semantic("keyword"), palette.green());
 
     builder.add_rules(&[Semantic("function"), Semantic("method")], palette.blue());
