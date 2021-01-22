@@ -31,6 +31,11 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
         palette.cyan(),
     );
 
+    builder.add_rules(
+        &[Semantic("formatSpecifier"), Semantic("escapeSequence")],
+        palette.red(),
+    );
+
     builder.add_rule(Semantic("property"), palette.blue());
 
     builder.add_rules(

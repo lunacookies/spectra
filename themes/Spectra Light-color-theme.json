@@ -69,6 +69,14 @@
 			"foreground": "#2AA198",
 			"fontStyle": ""
 		},
+		"formatSpecifier": {
+			"foreground": "#DC322F",
+			"fontStyle": ""
+		},
+		"escapeSequence": {
+			"foreground": "#DC322F",
+			"fontStyle": ""
+		},
 		"property": {
 			"foreground": "#268BD2",
 			"fontStyle": ""
