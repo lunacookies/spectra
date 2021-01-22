@@ -32,4 +32,13 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
     );
 
     builder.add_rule(Semantic("property"), palette.blue());
+
+    builder.add_rules(
+        &[
+            Semantic("macro"),
+            Semantic("attribute"),
+            Semantic("*.attribute"),
+        ],
+        palette.red(),
+    );
 }

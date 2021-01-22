@@ -72,6 +72,18 @@
 		"property": {
 			"foreground": "#268BD2",
 			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#DC322F",
+			"fontStyle": ""
+		},
+		"attribute": {
+			"foreground": "#DC322F",
+			"fontStyle": ""
+		},
+		"*.attribute": {
+			"foreground": "#DC322F",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
