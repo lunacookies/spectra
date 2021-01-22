@@ -56,6 +56,18 @@
 		"typeParameter": {
 			"foreground": "#B58900",
 			"fontStyle": ""
+		},
+		"string": {
+			"foreground": "#2AA198",
+			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#2AA198",
+			"fontStyle": ""
+		},
+		"boolean": {
+			"foreground": "#2AA198",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

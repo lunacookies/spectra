@@ -25,4 +25,9 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
         ],
         palette.yellow(),
     );
+
+    builder.add_rules(
+        &[Semantic("string"), Semantic("number"), Semantic("boolean")],
+        palette.cyan(),
+    );
 }
