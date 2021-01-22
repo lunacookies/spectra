@@ -68,6 +68,10 @@
 		"boolean": {
 			"foreground": "#2AA198",
 			"fontStyle": ""
+		},
+		"property": {
+			"foreground": "#268BD2",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

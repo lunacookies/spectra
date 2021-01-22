@@ -30,4 +30,6 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
         &[Semantic("string"), Semantic("number"), Semantic("boolean")],
         palette.cyan(),
     );
+
+    builder.add_rule(Semantic("property"), palette.blue());
 }
