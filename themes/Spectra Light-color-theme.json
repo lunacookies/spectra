@@ -8,6 +8,55 @@
 		"editor.background": "#FDF6E3"
 	},
 	"semanticHighlighting": true,
-	"semanticTokenColors": {},
+	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#859900",
+			"fontStyle": ""
+		},
+		"function": {
+			"foreground": "#268BD2",
+			"fontStyle": ""
+		},
+		"method": {
+			"foreground": "#268BD2",
+			"fontStyle": ""
+		},
+		"type": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"class": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"enumMember": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"union": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"typeAlias": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		},
+		"typeParameter": {
+			"foreground": "#B58900",
+			"fontStyle": ""
+		}
+	},
 	"tokenColors": []
 }
