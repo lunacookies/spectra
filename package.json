@@ -1,0 +1,34 @@
+{
+  "name": "spectra",
+  "displayName": "Spectra",
+  "description": "Solarized with modern colour science",
+  "publisher": "arzg",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/arzg/spectra"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spectra Light",
+        "uiTheme": "vs",
+        "path": "./themes/Spectra Light-color-theme.json"
+      },
+      {
+        "label": "Spectra Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Spectra Dark-color-theme.json"
+      }
+    ]
+  }
+}
