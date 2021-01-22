@@ -102,6 +102,10 @@
 			"foreground": "#DC322F",
 			"fontStyle": ""
 		},
+		"lifetime": {
+			"foreground": "#D33682",
+			"fontStyle": ""
+		},
 		"comment": {
 			"foreground": "#93A1A1",
 			"fontStyle": ""

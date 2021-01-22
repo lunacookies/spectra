@@ -55,5 +55,7 @@ pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: Palette) {
         palette.red(),
     );
 
+    builder.add_rule(Semantic("lifetime"), palette.magenta());
+
     builder.add_rule(Semantic("comment"), palette.deemphasized());
 }
