@@ -2,7 +2,11 @@
 {
 	"name": "Spectra Light",
 	"type": "light",
-	"colors": {},
+	"colors": {
+		"foreground": "#657B83",
+		"editor.foreground": "#657B83",
+		"editor.background": "#FDF6E3"
+	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {},
 	"tokenColors": []

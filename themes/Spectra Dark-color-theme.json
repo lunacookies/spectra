@@ -2,7 +2,11 @@
 {
 	"name": "Spectra Dark",
 	"type": "dark",
-	"colors": {},
+	"colors": {
+		"foreground": "#839496",
+		"editor.foreground": "#839496",
+		"editor.background": "#002B36"
+	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {},
 	"tokenColors": []
