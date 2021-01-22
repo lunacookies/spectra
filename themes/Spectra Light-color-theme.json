@@ -18,99 +18,99 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"keyword": {
-			"foreground": "#859900",
+			"foreground": "#849B11",
 			"fontStyle": ""
 		},
 		"function": {
-			"foreground": "#268BD2",
+			"foreground": "#2696E4",
 			"fontStyle": ""
 		},
 		"method": {
-			"foreground": "#268BD2",
+			"foreground": "#2696E4",
 			"fontStyle": ""
 		},
 		"type": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"class": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"struct": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"enum": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"enumMember": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"union": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"interface": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"typeAlias": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"builtinType": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"typeParameter": {
-			"foreground": "#B58900",
+			"foreground": "#B2881D",
 			"fontStyle": ""
 		},
 		"string": {
-			"foreground": "#2AA198",
+			"foreground": "#1AA598",
 			"fontStyle": ""
 		},
 		"number": {
-			"foreground": "#2AA198",
+			"foreground": "#1AA598",
 			"fontStyle": ""
 		},
 		"boolean": {
-			"foreground": "#2AA198",
+			"foreground": "#1AA598",
 			"fontStyle": ""
 		},
 		"formatSpecifier": {
-			"foreground": "#DC322F",
+			"foreground": "#DC655F",
 			"fontStyle": ""
 		},
 		"escapeSequence": {
-			"foreground": "#DC322F",
+			"foreground": "#DC655F",
 			"fontStyle": ""
 		},
 		"property": {
-			"foreground": "#268BD2",
+			"foreground": "#2696E4",
 			"fontStyle": ""
 		},
 		"namespace": {
-			"foreground": "#2AA198",
+			"foreground": "#1AA598",
 			"fontStyle": ""
 		},
 		"macro": {
-			"foreground": "#DC322F",
+			"foreground": "#DC655F",
 			"fontStyle": ""
 		},
 		"attribute": {
-			"foreground": "#DC322F",
+			"foreground": "#DC655F",
 			"fontStyle": ""
 		},
 		"*.attribute": {
-			"foreground": "#DC322F",
+			"foreground": "#DC655F",
 			"fontStyle": ""
 		},
 		"lifetime": {
-			"foreground": "#D33682",
+			"foreground": "#D36394",
 			"fontStyle": ""
 		},
 		"comment": {

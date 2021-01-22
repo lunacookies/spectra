@@ -74,36 +74,39 @@ impl Palette {
         oklch(0.9735303, 0.025970219, 90.12118)
     }
 
+    const L: f32 = 0.65;
+    const C: f32 = 0.15;
+
     pub(crate) fn yellow(&self) -> Oklch {
-        oklch(0.65448976, 0.13395809, 85.721306)
+        oklch(Self::L, 0.125, 85.0)
     }
 
     pub(crate) fn orange(&self) -> Oklch {
-        oklch(0.58083504, 0.17318209, 39.491676)
+        oklch(Self::L, Self::C, 40.0)
     }
 
     pub(crate) fn red(&self) -> Oklch {
-        oklch(0.58628607, 0.20640738, 27.108946)
+        oklch(Self::L, Self::C, 25.0)
     }
 
     pub(crate) fn magenta(&self) -> Oklch {
-        oklch(0.5923808, 0.20247188, 355.8826)
+        oklch(Self::L, Self::C, 355.0)
     }
 
     pub(crate) fn violet(&self) -> Oklch {
-        oklch(0.58230686, 0.1262059, 279.09988)
+        oklch(Self::L, Self::C, 280.0)
     }
 
     pub(crate) fn blue(&self) -> Oklch {
-        oklch(0.6148633, 0.139451, 244.93845)
+        oklch(Self::L, Self::C, 245.0)
     }
 
     pub(crate) fn cyan(&self) -> Oklch {
-        oklch(0.64365506, 0.101929754, 187.41685)
+        oklch(Self::L, 0.11, 185.0)
     }
 
     pub(crate) fn green(&self) -> Oklch {
-        oklch(0.6443937, 0.1508053, 118.61133)
+        oklch(Self::L, Self::C, 120.0)
     }
 }
 
