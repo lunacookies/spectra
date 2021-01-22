@@ -84,6 +84,10 @@
 		"*.attribute": {
 			"foreground": "#DC322F",
 			"fontStyle": ""
+		},
+		"comment": {
+			"foreground": "#93A1A1",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
